@@ -4,6 +4,8 @@ import Rootlayout from "../layouts/Rootlayout";
 import Errorinfo from "../pages/Errorinfo";
 import Lspinner from "../compos/Lspinner";
 import Homepage from "../pages/Homepage";
+import Allapps from "../pages/Allapps";
+import Installs from "../pages/Installs";
 
 const router = createBrowserRouter([
   {
@@ -18,16 +20,27 @@ const router = createBrowserRouter([
         element: <Homepage />,
       },
       {
-        path:'/homepage',
-        element: <Homepage/>,
+        path: "/home",
+        element: <Homepage />,
+      },
+      {
+        path: "/apps",
+        element: <Allapps />,
+      },
+      {
+        path: "/installs",
+        element: <Installs />,
+      },
+      {
+        path: "/installation",
+        element: <Installs />,
       },
     ],
   },
   {
-    path: '*',
-    element: <Errorinfo/>
-  }
-]
-);
+    path: "*",
+    element: <Errorinfo />,
+  },
+]);
 
 export default router;

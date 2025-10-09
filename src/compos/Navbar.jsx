@@ -1,9 +1,13 @@
 import React from "react";
+import { Link, NavLink } from "react-router";
+import '../../src/App.css';
+import appLogo from "../assets/logo.png"
+import icoGithub from '../assets/ico-github.png'
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className="bg-base-100 shadow-sm navbar">
+    <nav className="mx-auto w-11/12">
+      <div className="bg-base-100 navbar">
         <section className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="lg:hidden btn btn-ghost">
@@ -27,52 +31,27 @@ const Navbar = () => {
               tabIndex={0}
               className="z-1 bg-base-100 shadow mt-3 p-2 rounded-box w-52 menu menu-sm dropdown-content"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+          <li><NavLink to='/'>Home</NavLink></li>
+          <li><NavLink to='/apps'>Apps</NavLink></li>
+          <li><NavLink to='/installs'>Installation</NavLink></li>
             </ul>
           </div>
-          <a className="text-xl btn btn-ghost">daisyUI</a>
+          <div className="flex justify-left items-center gap-2">
+            <Link to='/'><img className="h-8" src={appLogo} alt="logo" /></Link>
+            <Link to='/' className="font-semibold link link-primary link-hover">HERO.IO</Link>
+          </div>
         </section>
         <section className="hidden lg:flex navbar-center">
           <ul className="px-1 menu menu-horizontal">
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+
+          <li><NavLink to='/'>Home</NavLink></li>
+          <li><NavLink to='/apps'>Apps</NavLink></li>
+          <li><NavLink to='/installs'>Installation</NavLink></li>
+
           </ul>
         </section>
         <section className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-md text-white btn" href='https://github.com/mhasantushar/' target="_blank"><img src={icoGithub} />Contribute</a>
         </section>
       </div>
     </nav>
