@@ -39,7 +39,6 @@ const AppDetails = () => {
   // console.log(targetApp);
 
   const {
-    id,
     image,
     title,
     tagline,

@@ -24,7 +24,7 @@ const Allapps = () => {
 
   // starting the search...
   const refinedTerm = searchTerm.trim().toLowerCase();
-  console.log(refinedTerm);
+  // console.log(refinedTerm);
 
   const matchedApps = refinedTerm
     ? appData.filter((app) => app.title.toLowerCase().includes(refinedTerm))
