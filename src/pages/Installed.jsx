@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Installs = () => {
+const Installed = () => {
   return (
     <div>
       INSTALLATIONS
@@ -8,4 +8,4 @@ const Installs = () => {
   );
 };
 
-export default Installs;
+export default Installed;

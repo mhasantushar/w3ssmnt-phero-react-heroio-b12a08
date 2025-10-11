@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Lspinner = () => {
+const Testpage = () => {
   return (
     <div>
-      LOADING
+      Test page
     </div>
   );
 };
 
-export default Lspinner;
+export default Testpage;

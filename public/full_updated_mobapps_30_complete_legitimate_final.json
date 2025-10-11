@@ -1,0 +1,82 @@
+[
+    {
+        "Id": 1,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "WhatsApp",
+        "Tagline": "The most popular messaging app",
+        "Company": "Meta Platforms, Inc.",
+        "Description": "WhatsApp Messenger is a free messaging app that allows users to send and receive text messages, voice messages, images, and videos. It works using an internet connection and has become one of the most popular messaging apps worldwide, offering seamless cross-platform communication. WhatsApp also supports voice and video calls, making it an excellent choice for users who prefer to connect through a variety of media. With its end-to-end encryption, WhatsApp prioritizes privacy, givi..."
+    },
+    {
+        "Id": 2,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "Telegram",
+        "Tagline": "Cloud-based, secure, and fast",
+        "Company": "Telegram Messenger LLP",
+        "Description": "Telegram is a cloud-based messaging app that prioritizes speed and security. It supports text messages, voice calls, video chats, and multimedia sharing. Telegram\u2019s end-to-end encryption ensures private conversations, and its support for large group chats, file sharing, and channels make it a great tool for both personal and professional communication. The app is open-source, which means users can trust it to keep their data secure. Telegram\u2019s flexibility and speed have made it a ..."
+    },
+    {
+        "Id": 3,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "Signal",
+        "Tagline": "End-to-end encrypted communication",
+        "Company": "Signal Foundation",
+        "Description": "Signal is a messaging app that emphasizes privacy and security. It uses end-to-end encryption to ensure that only the sender and receiver can access messages. Signal supports text messages, voice, and video calls, offering a range of communication features that maintain confidentiality. It is open-source, ensuring complete transparency, and does not collect metadata. Signal has received high praise from privacy experts and is widely regarded as one of the safest apps for personal ..."
+    },
+    {
+        "Id": 4,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "Viber",
+        "Tagline": "Communicate freely with end-to-end encryption",
+        "Company": "Rakuten, Inc.",
+        "Description": "Viber is a cross-platform messaging and VoIP app that offers secure communication for individuals and businesses. Users can send texts, make voice and video calls, and share files and multimedia. Viber ensures privacy with end-to-end encryption and provides users with free communication over the internet. With additional features like stickers, group chats, and Viber Out (which lets users make calls to non-Viber users), it continues to be a top choice for people who want secure, f..."
+    },
+    {
+        "Id": 5,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "Facebook Messenger",
+        "Tagline": "Instant communication with friends and businesses",
+        "Company": "Meta Platforms, Inc.",
+        "Description": "Facebook Messenger is a messaging platform that allows users to send messages, make voice and video calls, and share multimedia content with friends, family, and businesses. Integrated with Facebook, Messenger provides seamless communication across social media and private messages. Users can also send money, share locations, and interact with bots. With over a billion monthly active users, Facebook Messenger remains a key app for social interactions and business communications."
+    },
+    {
+        "Id": 6,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "WeChat",
+        "Tagline": "All-in-one communication tool",
+        "Company": "Tencent",
+        "Description": "WeChat is a Chinese multi-purpose messaging app that combines text messaging, voice calls, video calls, and mobile payments all in one. It also includes social media features like Moments, where users can post updates and interact with friends. With over a billion users, WeChat has become a critical app for both social communication and business transactions, allowing users to make payments, book services, and more, all within one platform."
+    },
+    {
+        "Id": 7,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "Snapchat",
+        "Tagline": "Capture and share moments that disappear",
+        "Company": "Snap Inc.",
+        "Description": "Snapchat is a multimedia messaging app popular for its self-destructing messages, where pictures and videos are deleted after being viewed. It offers a variety of fun filters, lenses, and augmented reality effects that users can apply to photos and videos. Snapchat also includes a 'Stories' feature that lets users share moments with their friends for 24 hours. Popular with younger audiences, Snapchat offers a unique, fun approach to communication with multimedia."
+    },
+    {
+        "Id": 8,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "Line",
+        "Tagline": "Your personal communication app",
+        "Company": "Line Corporation",
+        "Description": "Line is a Japanese messaging app that offers users text messaging, voice calls, video calls, and multimedia sharing. It also has social networking features such as Timeline, where users can post updates and interact with their contacts. With its iconic stickers and additional services like mobile payments (Line Pay), Line has become a major app in Japan and other parts of Asia, offering both social and financial functions within one platform."
+    },
+    {
+        "Id": 9,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "Skype",
+        "Tagline": "Stay connected with video calls",
+        "Company": "Microsoft",
+        "Description": "Skype is a telecommunications app that allows users to make voice and video calls over the internet. Skype supports messaging, file sharing, and group calls, making it a great tool for personal and business communication. Widely used for international calls, Skype also offers paid services for calling landlines and mobile phones. It became a global leader in internet communication and is an essential tool for remote work, international meetings, and personal connections."
+    },
+    {
+        "Id": 10,
+        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
+        "Title": "Zoom",
+        "Tagline": "The video communications platform",
+        "Company": "Zoom Video Communications",
+        "Description": "Zoom is a cloud-based video conferencing platform that allows users to host virtual meetings, webinars, and online events. It became widely popular during the COVID-19 pandemic for remote work and education. With features like screen sharing, breakout rooms, and webinars, Zoom supports large group meetings and high-quality video communication. It is now a widely used tool in businesses, schools, and social events for remote communication."
+    }
+]

@@ -2,17 +2,20 @@ import React from "react";
 import { createBrowserRouter } from "react-router";
 import Rootlayout from "../layouts/Rootlayout";
 import Errorinfo from "../pages/Errorinfo";
-import Lspinner from "../compos/Lspinner";
+import Spinner from "../compos/Spinner";
+import Loader from "../compos/Loader";
 import Homepage from "../pages/Homepage";
 import Allapps from "../pages/Allapps";
-import Installs from "../pages/Installs";
+import Installs from "../pages/Installed";
+
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Rootlayout />,
+    element: <Rootlayout/>,
     errorElement: <Errorinfo />,
-    hydrateFallbackElement: <Lspinner />,
+    hydrateFallbackElement: <Loader/>,
 
     children: [
       {
@@ -20,16 +23,8 @@ const router = createBrowserRouter([
         element: <Homepage />,
       },
       {
-        path: "/home",
-        element: <Homepage />,
-      },
-      {
         path: "/apps",
         element: <Allapps />,
-      },
-      {
-        path: "/installs",
-        element: <Installs />,
       },
       {
         path: "/installation",

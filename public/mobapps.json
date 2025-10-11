@@ -1,0 +1,1022 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "WhatsApp",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WhatsApp Messenger is a free messaging app for smartphones that allows users to send and receive text messages, voice messages, images, video messages, and voice calls. It works using an internet connection and is one of the most popular messaging apps worldwide.",
+        "size": 36.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "Telegram",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Telegram is a cloud-based messaging app known for its speed and security. It supports text messaging, file sharing, voice calls, and video calls. Telegram also offers encrypted chat features, making it a popular choice for users who prioritize privacy.",
+        "size": 37.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "Signal",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Signal is an encrypted messaging app that offers secure and private communications for text, voice, and video messages. It uses end-to-end encryption to ensure that only the sender and recipient can read the messages. Signal is highly recommended for users concerned with privacy.",
+        "size": 38.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "Viber",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Viber is a cross-platform messaging app that allows users to send text messages, make voice and video calls, and share images and files. It offers end-to-end encryption for its users, ensuring a secure communication environment.",
+        "size": 39.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "Facebook Messenger",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Facebook Messenger is a messaging platform developed by Meta that allows users to send text messages, images, video calls, and share multimedia content. It integrates seamlessly with Facebook, providing a comprehensive social media messaging solution.",
+        "size": 40.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "WeChat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WeChat is a Chinese multi-purpose messaging, social media, and mobile payment app developed by Tencent. It provides text messaging, voice calls, video calls, and allows users to make payments and share multimedia content.",
+        "size": 41.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "Snapchat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Snapchat is a multimedia messaging app popular for its ephemeral nature, where messages and images disappear after being viewed. It offers fun filters, video calls, and is widely used among younger generations for social interaction.",
+        "size": 42.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "Line",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Line is a communication app that allows text messaging, voice calls, and video calls. It also has a social media component with features like Timeline and stickers, making it highly popular in Japan and other East Asian regions.",
+        "size": 43.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "Skype",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Skype is a telecommunications app that provides voice and video calling services, along with instant messaging. It's widely used for international communication and business meetings, offering both paid and free services.",
+        "size": 44.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "Zoom",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Zoom is a cloud-based video conferencing software that allows users to host and attend virtual meetings, webinars, and online events. It became popular during the COVID-19 pandemic for remote work, education, and social gatherings.",
+        "size": 45.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "WhatsApp",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WhatsApp Messenger is a free messaging app for smartphones that allows users to send and receive text messages, voice messages, images, video messages, and voice calls. It works using an internet connection and is one of the most popular messaging apps worldwide.",
+        "size": 46.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "Telegram",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Telegram is a cloud-based messaging app known for its speed and security. It supports text messaging, file sharing, voice calls, and video calls. Telegram also offers encrypted chat features, making it a popular choice for users who prioritize privacy.",
+        "size": 47.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "Signal",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Signal is an encrypted messaging app that offers secure and private communications for text, voice, and video messages. It uses end-to-end encryption to ensure that only the sender and recipient can read the messages. Signal is highly recommended for users concerned with privacy.",
+        "size": 48.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "Viber",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Viber is a cross-platform messaging app that allows users to send text messages, make voice and video calls, and share images and files. It offers end-to-end encryption for its users, ensuring a secure communication environment.",
+        "size": 49.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "Facebook Messenger",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Facebook Messenger is a messaging platform developed by Meta that allows users to send text messages, images, video calls, and share multimedia content. It integrates seamlessly with Facebook, providing a comprehensive social media messaging solution.",
+        "size": 50.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "WeChat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WeChat is a Chinese multi-purpose messaging, social media, and mobile payment app developed by Tencent. It provides text messaging, voice calls, video calls, and allows users to make payments and share multimedia content.",
+        "size": 51.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "Snapchat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Snapchat is a multimedia messaging app popular for its ephemeral nature, where messages and images disappear after being viewed. It offers fun filters, video calls, and is widely used among younger generations for social interaction.",
+        "size": 52.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-6webp",
+        "title": "Line",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Line is a communication app that allows text messaging, voice calls, and video calls. It also has a social media component with features like Timeline and stickers, making it highly popular in Japan and other East Asian regions.",
+        "size": 53.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "Skype",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Skype is a telecommunications app that provides voice and video calling services, along with instant messaging. It's widely used for international communication and business meetings, offering both paid and free services.",
+        "size": 54.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "Zoom",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Zoom is a cloud-based video conferencing software that allows users to host and attend virtual meetings, webinars, and online events. It became popular during the COVID-19 pandemic for remote work, education, and social gatherings.",
+        "size": 55.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "WhatsApp",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WhatsApp Messenger is a free messaging app for smartphones that allows users to send and receive text messages, voice messages, images, video messages, and voice calls. It works using an internet connection and is one of the most popular messaging apps worldwide.",
+        "size": 56.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "Telegram",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Telegram is a cloud-based messaging app known for its speed and security. It supports text messaging, file sharing, voice calls, and video calls. Telegram also offers encrypted chat features, making it a popular choice for users who prioritize privacy.",
+        "size": 57.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "Signal",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Signal is an encrypted messaging app that offers secure and private communications for text, voice, and video messages. It uses end-to-end encryption to ensure that only the sender and recipient can read the messages. Signal is highly recommended for users concerned with privacy.",
+        "size": 58.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "Viber",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Viber is a cross-platform messaging app that allows users to send text messages, make voice and video calls, and share images and files. It offers end-to-end encryption for its users, ensuring a secure communication environment.",
+        "size": 59.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "Facebook Messenger",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Facebook Messenger is a messaging platform developed by Meta that allows users to send text messages, images, video calls, and share multimedia content. It integrates seamlessly with Facebook, providing a comprehensive social media messaging solution.",
+        "size": 60.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "WeChat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WeChat is a Chinese multi-purpose messaging, social media, and mobile payment app developed by Tencent. It provides text messaging, voice calls, video calls, and allows users to make payments and share multimedia content.",
+        "size": 61.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "Snapchat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Snapchat is a multimedia messaging app popular for its ephemeral nature, where messages and images disappear after being viewed. It offers fun filters, video calls, and is widely used among younger generations for social interaction.",
+        "size": 62.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "Line",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Line is a communication app that allows text messaging, voice calls, and video calls. It also has a social media component with features like Timeline and stickers, making it highly popular in Japan and other East Asian regions.",
+        "size": 63.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "Skype",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Skype is a telecommunications app that provides voice and video calling services, along with instant messaging. It's widely used for international communication and business meetings, offering both paid and free services.",
+        "size": 64.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "Zoom",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Zoom is a cloud-based video conferencing software that allows users to host and attend virtual meetings, webinars, and online events. It became popular during the COVID-19 pandemic for remote work, education, and social gatherings.",
+        "size": 65.0,
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "Categ": "1 Star",
+                "Count": 100000
+            },
+            {
+                "Categ": "2 Star",
+                "Count": 200000
+            },
+            {
+                "Categ": "3 Star",
+                "Count": 300000
+            },
+            {
+                "Categ": "4 Star",
+                "Count": 400000
+            },
+            {
+                "Categ": "5 Star",
+                "Count": 500000
+            }
+        ]
+    }
+]

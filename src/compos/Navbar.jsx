@@ -46,12 +46,12 @@ const Navbar = () => {
 
           <li><NavLink to='/'>Home</NavLink></li>
           <li><NavLink to='/apps'>Apps</NavLink></li>
-          <li><NavLink to='/installs'>Installation</NavLink></li>
+          <li><NavLink to='/installation'>Installation</NavLink></li>
 
           </ul>
         </section>
         <section className="navbar-end">
-          <a className="bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-md text-white btn" href='https://github.com/mhasantushar/' target="_blank"><img src={icoGithub} />Contribute</a>
+          <a className="bg-gradient-to-br from-[#632ee3] to-[#9f62f2] rounded-md text-white btn btn-primary btn-soft" href='https://github.com/mhasantushar/' target="_blank"><img src={icoGithub} />Contribute</a>
         </section>
       </div>
     </nav>
