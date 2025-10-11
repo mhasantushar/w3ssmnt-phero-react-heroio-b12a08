@@ -63,7 +63,7 @@ const Allapps = () => {
       ) : (
         <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {matchedApps.map((app) => (
-            <AppCard key={app.Id} app={app} />
+            <AppCard key={app.id} app={app} />
           ))}
         </div>
       )}

@@ -1,9 +1,8 @@
 import React from "react";
+import { toast } from "react-toastify";
+import { useEffect } from "react";
+import { useState } from "react";
 import { useParams } from "react-router";
-import useAppData from "../hook/useAppData";
-import icoDownloads from "../assets/icon-downloads.png";
-import icoRatingAvg from "../assets/icon-ratings.png";
-import icoReviewNum from "../assets/icon-review.png";
 import {
   Bar,
   BarChart,
@@ -15,30 +14,51 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import useAppData from "../hook/useAppData";
+import icoDownloads from "../assets/icon-downloads.png";
+import icoRatingAvg from "../assets/icon-ratings.png";
+import icoReviewNum from "../assets/icon-review.png";
 
 const AppDetails = () => {
   const { appData, loadingData, loadingError } = useAppData();
   const { appid } = useParams();
 
-  // Loading data and verify the states through
-  if (loadingData) {
-    return <div className="py-20 text-center">Loading trending apps...</div>;
-  }
-
-  if (loadingError) {
-    return (
-      <div className="py-20 text-red-600 text-center">
-        Error loading tending apps: {loadingError.message}
-      </div>
-    );
-  }
-  // console.log(appData);
+  //state declarations on the top
+  const [isInstalling, setIsInstalling] = useState(false);
+  const [isInstalled, setIsInstalled] = useState(false);
 
   //finding the app and loading its details
   const targetApp = appData.find((app) => app.id === Number(appid));
   // console.log(targetApp);
 
+  // Check if the target app is already installed on mount
+  useEffect(() => {
+    if (targetApp) {
+      const appInstalledLS =
+        JSON.parse(localStorage.getItem("installedAppList")) || [];
+      const alreadyInstalled = appInstalledLS.some(
+        (app) => app.id === targetApp.id
+      );
+      setIsInstalled(alreadyInstalled);
+    }
+  }, [targetApp]);
+
+  // Loading data and verify the states through
+  if (loadingData) {
+    return <div className="py-20 text-center">Loading apps...</div>;
+  }
+
+  if (loadingError) {
+    return (
+      <div className="py-20 text-red-600 text-center">
+        Error loading apps: {loadingError.message}
+      </div>
+    );
+  }
+  // console.log(appData);
+
   const {
+    id,
     image,
     title,
     tagline,
@@ -50,6 +70,25 @@ const AppDetails = () => {
     downloads,
     ratings,
   } = targetApp || {};
+
+  const handleClickonInstall = () => {
+    setIsInstalling(true);
+
+    const appInstalledLS =
+      JSON.parse(localStorage.getItem("installedAppList")) || [];
+    const updatedInstalledList = [...appInstalledLS, targetApp];
+    // console.log(updatedInstalledList);
+
+    setTimeout(() => {
+      localStorage.setItem(
+        "installedAppList",
+        JSON.stringify(updatedInstalledList)
+      );
+      setIsInstalling(false);
+      setIsInstalled(true);
+      toast.success(`${title} installation successful!`);
+    }, 2000);
+  };
 
   return (
     <section className="mx-auto py-20 w-11/12 text-[#001931]">
@@ -104,8 +143,16 @@ const AppDetails = () => {
             </div>
           </div>
 
-          <button className="text-white btn btn-success">
-            Install Now ({size})
+          <button
+            onClick={handleClickonInstall}
+            disabled={isInstalling || isInstalled}
+            className="text-white btn btn-success"
+          >
+            {isInstalling
+              ? "Installing..."
+              : isInstalled
+              ? "Installed ✓"
+              : `Install Now (${size})`}
           </button>
         </div>
       </div>
@@ -118,13 +165,15 @@ const AppDetails = () => {
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={ratings} layout="vertical">
               {/* <CartesianGrid strokeDasharray="3 3" /> */}
-              <XAxis type="number" axisLine={false}/>
-              <YAxis type="category" dataKey="categ" reversed axisLine={false}/>
-              <Tooltip />
-              <Bar
-                dataKey="count"
-                fill="#FF8811"
+              <XAxis type="number" axisLine={false} />
+              <YAxis
+                type="category"
+                dataKey="categ"
+                reversed
+                axisLine={false}
               />
+              <Tooltip />
+              <Bar dataKey="count" fill="#FF8811" />
             </BarChart>
           </ResponsiveContainer>
         </section>

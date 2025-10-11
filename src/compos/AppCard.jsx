@@ -14,7 +14,7 @@ const AppCard = ({ app }) => {
         </figure>
         <div className="card-body">
           <h3 className="card-title">
-            {title} - {tagline}              
+            {title} - {tagline}
           </h3>
 
           <div className="justify-between card-actions">
