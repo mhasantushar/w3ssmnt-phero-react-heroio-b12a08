@@ -3,9 +3,9 @@ import Navbar from "../compos/Navbar";
 import Footbar from "../compos/Footbar";
 import { Outlet } from "react-router";
 
-const Rootlayout = () => {
+const RootLayout = () => {
   return (
-    <section className="flex flex-col min-h-screen">
+    <section className="flex flex-col min-h-dvh">
       <header>
         <Navbar />
       </header>
@@ -19,4 +19,4 @@ const Rootlayout = () => {
   );
 };
 
-export default Rootlayout;
+export default RootLayout;

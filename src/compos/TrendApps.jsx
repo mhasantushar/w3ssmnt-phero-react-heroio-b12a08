@@ -4,17 +4,21 @@ import useAppData from "../hook/useAppData";
 import { Link } from "react-router";
 
 const TrendApps = () => {
-  const {appData, loadingData, loadingError} = useAppData();
+  const { appData, loadingData, loadingError } = useAppData();
 
-  if (loadingData){
-    return (<div className="py-20 text-center">Loading trending apps...</div>);
+  if (loadingData) {
+    return <div className="py-20 text-center">Loading apps...</div>;
   }
-  
-  if (loadingError){
-    return (<div className="py-20 text-red-600 text-center">Error loading tending apps: {loadingError.message}</div>);
+
+  if (loadingError) {
+    return (
+      <div className="py-20 text-red-600 text-center">
+        Error loading apps: {loadingError.message}
+      </div>
+    );
   }
   // console.log(appData);
-  
+
   const appsTrending = appData.slice(0, 8); // taking first 8 to show on homepage
 
   return (

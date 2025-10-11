@@ -7,7 +7,7 @@ const Errorinfo = () => {
   const error = useRouteError();
 
   return (
-    <section className="flex flex-col min-h-screen error-page">
+    <section className="flex flex-col min-h-dvh">
       <header>
         <Navbar />
       </header>
@@ -20,7 +20,7 @@ const Errorinfo = () => {
           <p>The page you're looking for doesn't exist.</p>
         ) : (
           <p>An unexpected error occurred.</p>
-        )}
+        )}                                               
         <a href="/">Go back to homepage</a>
       </div>
 

@@ -3,7 +3,7 @@ import React from 'react';
 const Installed = () => {
   return (
     <div>
-      INSTALLATIONS
+      INSTALLED APPS
     </div>
   );
 };

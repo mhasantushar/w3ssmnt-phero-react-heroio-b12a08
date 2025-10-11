@@ -8,19 +8,21 @@ const Allapps = () => {
   const { appData, loadingData, loadingError } = useAppData();
   const [searchTerm, setSearchTerm] = useState("");
 
+  // Loading data and verify the states through
   if (loadingData) {
-    return <div className="py-20 text-center">Loading trending apps...</div>;
+    return <div className="py-20 text-center">Loading apps...</div>;
   }
 
   if (loadingError) {
     return (
       <div className="py-20 text-red-600 text-center">
-        Error loading tending apps: {loadingError.message}
+        Error loading apps: {loadingError.message}
       </div>
     );
   }
-  console.log(appData);
+  // console.log(appData);
 
+  // starting the search...
   const refinedTerm = searchTerm.trim().toLowerCase();
   console.log(refinedTerm);
 

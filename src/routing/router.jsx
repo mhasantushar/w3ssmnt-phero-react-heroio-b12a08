@@ -1,21 +1,20 @@
 import React from "react";
 import { createBrowserRouter } from "react-router";
-import Rootlayout from "../layouts/Rootlayout";
+import RootLayout from "../layouts/RootLayout";
 import Errorinfo from "../pages/Errorinfo";
 import Spinner from "../compos/Spinner";
 import Loader from "../compos/Loader";
 import Homepage from "../pages/Homepage";
 import Allapps from "../pages/Allapps";
-import Installs from "../pages/Installed";
-
-
+import Installed from "../pages/Installed";
+import AppDetails from "../pages/AppDetails";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Rootlayout/>,
+    element: <RootLayout />,
     errorElement: <Errorinfo />,
-    hydrateFallbackElement: <Loader/>,
+    hydrateFallbackElement: <Loader />,
 
     children: [
       {
@@ -27,8 +26,13 @@ const router = createBrowserRouter([
         element: <Allapps />,
       },
       {
+        path: "apps/:appid",
+        element: <AppDetails />,
+      },
+      {
         path: "/installation",
-        element: <Installs />,
+        // element: <Installed />,
+        element: <AppDetails />,
       },
     ],
   },
