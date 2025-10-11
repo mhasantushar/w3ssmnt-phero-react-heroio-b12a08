@@ -4,6 +4,17 @@ import useAppData from "../hook/useAppData";
 import icoDownloads from "../assets/icon-downloads.png";
 import icoRatingAvg from "../assets/icon-ratings.png";
 import icoReviewNum from "../assets/icon-review.png";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Rectangle,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const AppDetails = () => {
   const { appData, loadingData, loadingError } = useAppData();
@@ -103,6 +114,21 @@ const AppDetails = () => {
 
       <div>
         <h2 className="mb-4 font-bold text-3xl">Ratings</h2>
+
+        <section className="h-60">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={ratings} layout="vertical">
+              {/* <CartesianGrid strokeDasharray="3 3" /> */}
+              <XAxis type="number" axisLine={false}/>
+              <YAxis type="category" dataKey="categ" reversed axisLine={false}/>
+              <Tooltip />
+              <Bar
+                dataKey="count"
+                fill="#FF8811"
+              />
+            </BarChart>
+          </ResponsiveContainer>
+        </section>
       </div>
       <hr className="my-12 border-gray-200" />
 
