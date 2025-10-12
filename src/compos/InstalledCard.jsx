@@ -2,7 +2,7 @@ import React from "react";
 import icoDownload from "../assets/icon-downloads.png";
 import icoRating from "../assets/icon-ratings.png";
 
-const InstalledCard = ({ app }) => {
+const InstalledCard = ({ app, handleClickonUninstall }) => {
   return (
     <section className="bg-white shadow-sm hover:shadow-xl text-[#001931] hover:scale-102 transition ease-in-out card card-side">
       <figure className="h-40 overflow-hidden">
@@ -23,7 +23,12 @@ const InstalledCard = ({ app }) => {
           <div>{app.size}</div>
         </div>
         <div className="justify-end card-actions">
-          <button className="btn btn-primary">Uninstall</button>
+          <button
+            onClick={() => handleClickonUninstall(app.id)}
+            className="btn btn-primary"
+          >
+            Uninstall
+          </button>
         </div>
       </div>
     </section>

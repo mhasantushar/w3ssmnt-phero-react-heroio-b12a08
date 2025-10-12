@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import InstalledCard from "../compos/InstalledCard";
 import NoAppInstalled from "../compos/NoAppInstalled";
+import { toast } from "react-toastify";
 
 const InstalledWrap = () => {
   const [installedAppList, setInstalledAppList] = useState([]);
@@ -16,9 +17,50 @@ const InstalledWrap = () => {
   // useEffect(() => {
   //   console.log("installedAppList state updated:", installedAppList);
   // }, [installedAppList]);
+  if (installedAppList.length === 0) return <NoAppInstalled />;
 
-  if (installedAppList.length === 0)
-    return <NoAppInstalled/>;
+  // starting and iife function to implement sorting feature
+  // its code will be executed through during loading time even if it isn't called
+  const sortedAppList = (() => {
+    switch (sortOrder) {
+      case "downloads-asc":
+        return [...installedAppList].sort((a, b) => a.downloads - b.downloads);
+      case "downloads-dsc":
+        return [...installedAppList].sort((a, b) => b.downloads - a.downloads);
+
+      case "rating-asc":
+        return [...installedAppList].sort((a, b) => a.rating - b.rating);
+      case "rating-dsc":
+        return [...installedAppList].sort((a, b) => b.rating - a.rating);
+
+      default:
+        return installedAppList;
+    }
+  })();
+
+  const handleClickonUninstall = (appid) => {
+    const currentInstalledList = JSON.parse(
+      localStorage.getItem("installedApps-heroio")
+    );
+    // console.log(currentInstalledList);
+    // console.log(appid);
+
+    const updatedInstalledList = currentInstalledList.filter(
+      (app) => app.id !== appid
+    );
+    // console.log(updatedInstalledList);
+
+    localStorage.setItem(
+      "installedApps-heroio",
+      JSON.stringify(updatedInstalledList)
+    );
+    toast.success("Uninstallation successful!");
+
+    // removing the app from LS is done
+    // but the app list on InstalledCard isn't refreshing automatically
+    // following line of code is not necessary according to the logic, but will do the needful trick
+    setInstalledAppList(updatedInstalledList);
+  };
 
   return (
     <section className="mx-auto py-20 w-11/12 text-[#001931]">
@@ -58,8 +100,12 @@ const InstalledWrap = () => {
       </div>
 
       <div className="flex flex-col gap-6">
-        {installedAppList.map((app) => (
-          <InstalledCard key={app.id} app={app} />
+        {sortedAppList.map((app) => (
+          <InstalledCard
+            key={app.id}
+            app={app}
+            handleClickonUninstall={(appid) => handleClickonUninstall(appid)}
+          />
         ))}
       </div>
     </section>
