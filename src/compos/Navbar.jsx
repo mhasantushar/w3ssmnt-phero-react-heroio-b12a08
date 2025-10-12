@@ -46,7 +46,7 @@ const Navbar = () => {
 
           <li><NavLink to='/'>Home</NavLink></li>
           <li><NavLink to='/apps'>Apps</NavLink></li>
-          <li><NavLink to='/installation'>Installation</NavLink></li>
+          <li><NavLink to='/installed'>Installed</NavLink></li>
 
           </ul>
         </section>

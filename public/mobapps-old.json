@@ -1,1021 +1,1021 @@
 [
     {
-        "Id": 1,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 1",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 1 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 36.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 1,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "WhatsApp",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WhatsApp Messenger is a free messaging app for smartphones that allows users to send and receive text messages, voice messages, images, video messages, and voice calls. It works using an internet connection and is one of the most popular messaging apps worldwide.",
+        "size": "120 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 2,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 2",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 2 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 37.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 2,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "Telegram",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Telegram is a cloud-based messaging app known for its speed and security. It supports text messaging, file sharing, voice calls, and video calls. Telegram also offers encrypted chat features, making it a popular choice for users who prioritize privacy.",
+        "size": "210 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 3,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 3",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 3 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 38.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 3,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "Signal",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Signal is an encrypted messaging app that offers secure and private communications for text, voice, and video messages. It uses end-to-end encryption to ensure that only the sender and recipient can read the messages. Signal is highly recommended for users concerned with privacy.",
+        "size": "180 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 4,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 4",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 4 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 39.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 4,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "Viber",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Viber is a cross-platform messaging app that allows users to send text messages, make voice and video calls, and share images and files. It offers end-to-end encryption for its users, ensuring a secure communication environment.",
+        "size": "140 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 5,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 5",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 5 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 40.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 5,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "Facebook Messenger",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Facebook Messenger is a messaging platform developed by Meta that allows users to send text messages, images, video calls, and share multimedia content. It integrates seamlessly with Facebook, providing a comprehensive social media messaging solution.",
+        "size": "162 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 6,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 6",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 6 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 41.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 6,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "WeChat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WeChat is a Chinese multi-purpose messaging, social media, and mobile payment app developed by Tencent. It provides text messaging, voice calls, video calls, and allows users to make payments and share multimedia content.",
+        "size": "310 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 7,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 7",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 7 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 42.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 7,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "Snapchat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Snapchat is a multimedia messaging app popular for its ephemeral nature, where messages and images disappear after being viewed. It offers fun filters, video calls, and is widely used among younger generations for social interaction.",
+        "size": "212 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 8,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 8",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 8 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 43.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 8,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "Line",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Line is a communication app that allows text messaging, voice calls, and video calls. It also has a social media component with features like Timeline and stickers, making it highly popular in Japan and other East Asian regions.",
+        "size": "110 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 9,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 9",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 9 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 44.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 9,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "Skype",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Skype is a telecommunications app that provides voice and video calling services, along with instant messaging. It's widely used for international communication and business meetings, offering both paid and free services.",
+        "size": "150 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 10,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 10",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 10 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 45.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 10,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "Zoom",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Zoom is a cloud-based video conferencing software that allows users to host and attend virtual meetings, webinars, and online events. It became popular during the COVID-19 pandemic for remote work, education, and social gatherings.",
+        "size": "210 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 11,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 11",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 11 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 46.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 11,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "WhatsApp",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WhatsApp Messenger is a free messaging app for smartphones that allows users to send and receive text messages, voice messages, images, video messages, and voice calls. It works using an internet connection and is one of the most popular messaging apps worldwide.",
+        "size": "200 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 12,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 12",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 12 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 47.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 12,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "Telegram",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Telegram is a cloud-based messaging app known for its speed and security. It supports text messaging, file sharing, voice calls, and video calls. Telegram also offers encrypted chat features, making it a popular choice for users who prioritize privacy.",
+        "size": "190 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 13,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 13",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 13 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 48.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 13,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "Signal",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Signal is an encrypted messaging app that offers secure and private communications for text, voice, and video messages. It uses end-to-end encryption to ensure that only the sender and recipient can read the messages. Signal is highly recommended for users concerned with privacy.",
+        "size": "230 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 14,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 14",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 14 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 49.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 14,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "Viber",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Viber is a cross-platform messaging app that allows users to send text messages, make voice and video calls, and share images and files. It offers end-to-end encryption for its users, ensuring a secure communication environment.",
+        "size": "215 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 15,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 15",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 15 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 50.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 15,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "Facebook Messenger",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Facebook Messenger is a messaging platform developed by Meta that allows users to send text messages, images, video calls, and share multimedia content. It integrates seamlessly with Facebook, providing a comprehensive social media messaging solution.",
+        "size": "132 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 16,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 16",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 16 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 51.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 16,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "WeChat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WeChat is a Chinese multi-purpose messaging, social media, and mobile payment app developed by Tencent. It provides text messaging, voice calls, video calls, and allows users to make payments and share multimedia content.",
+        "size": "234 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 17,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 17",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 17 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 52.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 17,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "Snapchat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Snapchat is a multimedia messaging app popular for its ephemeral nature, where messages and images disappear after being viewed. It offers fun filters, video calls, and is widely used among younger generations for social interaction.",
+        "size": "342 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 18,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 18",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 18 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 53.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 18,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "Line",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Line is a communication app that allows text messaging, voice calls, and video calls. It also has a social media component with features like Timeline and stickers, making it highly popular in Japan and other East Asian regions.",
+        "size": "122 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 19,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 19",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 19 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 54.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 19,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "Skype",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Skype is a telecommunications app that provides voice and video calling services, along with instant messaging. It's widely used for international communication and business meetings, offering both paid and free services.",
+        "size": "75 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 20,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 20",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 20 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 55.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 20,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "Zoom",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Zoom is a cloud-based video conferencing software that allows users to host and attend virtual meetings, webinars, and online events. It became popular during the COVID-19 pandemic for remote work, education, and social gatherings.",
+        "size": "74 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 21,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 21",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 21 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 56.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 21,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "WhatsApp",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WhatsApp Messenger is a free messaging app for smartphones that allows users to send and receive text messages, voice messages, images, video messages, and voice calls. It works using an internet connection and is one of the most popular messaging apps worldwide.",
+        "size": "96 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 22,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 22",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 22 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 57.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 22,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "Telegram",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Telegram is a cloud-based messaging app known for its speed and security. It supports text messaging, file sharing, voice calls, and video calls. Telegram also offers encrypted chat features, making it a popular choice for users who prioritize privacy.",
+        "size": "46 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 23,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 23",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 23 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 58.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 23,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "Signal",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Signal is an encrypted messaging app that offers secure and private communications for text, voice, and video messages. It uses end-to-end encryption to ensure that only the sender and recipient can read the messages. Signal is highly recommended for users concerned with privacy.",
+        "size": "34 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 24,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 24",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 24 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 59.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 24,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "Viber",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Viber is a cross-platform messaging app that allows users to send text messages, make voice and video calls, and share images and files. It offers end-to-end encryption for its users, ensuring a secure communication environment.",
+        "size": "335 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 25,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 25",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 25 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 60.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 25,
+        "image": "https://i.ibb.co/67KkyhvK/demo-app-1.webp",
+        "title": "Facebook Messenger",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Facebook Messenger is a messaging platform developed by Meta that allows users to send text messages, images, video calls, and share multimedia content. It integrates seamlessly with Facebook, providing a comprehensive social media messaging solution.",
+        "size": "564 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 26,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 26",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 26 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 61.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 26,
+        "image": "https://i.ibb.co/YFLShK8Z/demo-app-2.webp",
+        "title": "WeChat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "WeChat is a Chinese multi-purpose messaging, social media, and mobile payment app developed by Tencent. It provides text messaging, voice calls, video calls, and allows users to make payments and share multimedia content.",
+        "size": "145 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 27,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 27",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 27 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 62.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 27,
+        "image": "https://i.ibb.co/S7vSsRTt/demo-app-3.webp",
+        "title": "Snapchat",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Snapchat is a multimedia messaging app popular for its ephemeral nature, where messages and images disappear after being viewed. It offers fun filters, video calls, and is widely used among younger generations for social interaction.",
+        "size": "234 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 28,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 28",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 28 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 63.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 28,
+        "image": "https://i.ibb.co/93N9VSyH/demo-app-4.webp",
+        "title": "Line",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Line is a communication app that allows text messaging, voice calls, and video calls. It also has a social media component with features like Timeline and stickers, making it highly popular in Japan and other East Asian regions.",
+        "size": "234 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 29,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 29",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 29 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 64.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 29,
+        "image": "https://i.ibb.co/rRhJD9jJ/demo-app-5.webp",
+        "title": "Skype",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Skype is a telecommunications app that provides voice and video calling services, along with instant messaging. It's widely used for international communication and business meetings, offering both paid and free services.",
+        "size": "120 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     },
     {
-        "Id": 30,
-        "Image": "https://www.citypng.com/photo/4786/hd-whatsapp-logo-paint-splash-icon-png",
-        "Title": "App 30",
-        "Tagline": "Secure messaging",
-        "Company": "Meta Platforms, Inc.",
-        "Description": "App 30 is a free messaging app that allows users to send text messages, voice messages, images, and videos over the internet.",
-        "Size": 65.0,
-        "Reviews": "1.5B",
-        "Rating": 4.5,
-        "Downloads": "5B",
-        "Ratings": [
+        "id": 30,
+        "image": "https://i.ibb.co/Y4H2sR25/demo-app-6.webp",
+        "title": "Zoom",
+        "tagline": "Secure messaging",
+        "company": "Meta Platforms, Inc.",
+        "description": "Zoom is a cloud-based video conferencing software that allows users to host and attend virtual meetings, webinars, and online events. It became popular during the COVID-19 pandemic for remote work, education, and social gatherings.",
+        "size": "465 MB",
+        "reviews": "1.5B",
+        "rating": 4.5,
+        "downloads": "5B",
+        "ratings": [
             {
-                "Categ": "1 Star",
-                "Count": 100000
+                "categ": "1 Star",
+                "count": 100000
             },
             {
-                "Categ": "2 Star",
-                "Count": 200000
+                "categ": "2 Star",
+                "count": 200000
             },
             {
-                "Categ": "3 Star",
-                "Count": 300000
+                "categ": "3 Star",
+                "count": 300000
             },
             {
-                "Categ": "4 Star",
-                "Count": 400000
+                "categ": "4 Star",
+                "count": 400000
             },
             {
-                "Categ": "5 Star",
-                "Count": 500000
+                "categ": "5 Star",
+                "count": 500000
             }
         ]
     }

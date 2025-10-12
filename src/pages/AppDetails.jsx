@@ -34,9 +34,9 @@ const AppDetails = () => {
   // Check if the target app is already installed on mount
   useEffect(() => {
     if (targetApp) {
-      const appInstalledLS =
-        JSON.parse(localStorage.getItem("installedAppList")) || [];
-      const alreadyInstalled = appInstalledLS.some(
+      const installedAppListLS =
+        JSON.parse(localStorage.getItem("installedApps-heroio")) || [];
+      const alreadyInstalled = installedAppListLS.some(
         (app) => app.id === targetApp.id
       );
       setIsInstalled(alreadyInstalled);
@@ -58,7 +58,6 @@ const AppDetails = () => {
   // console.log(appData);
 
   const {
-    id,
     image,
     title,
     tagline,
@@ -74,14 +73,14 @@ const AppDetails = () => {
   const handleClickonInstall = () => {
     setIsInstalling(true);
 
-    const appInstalledLS =
-      JSON.parse(localStorage.getItem("installedAppList")) || [];
-    const updatedInstalledList = [...appInstalledLS, targetApp];
+    const installedAppListLS =
+      JSON.parse(localStorage.getItem("installedApps-heroio")) || [];
+    const updatedInstalledList = [...installedAppListLS, targetApp];
     // console.log(updatedInstalledList);
 
     setTimeout(() => {
       localStorage.setItem(
-        "installedAppList",
+        "installedApps-heroio",
         JSON.stringify(updatedInstalledList)
       );
       setIsInstalling(false);
@@ -110,7 +109,7 @@ const AppDetails = () => {
           <hr className="mt-6 mb-8 border-gray-200" />
 
           <div className="mb-8">
-            <div className="flex justify-start gap-4 sm:gap-8 md:gap-16 lg:gap-32">
+            <div className="flex flex-wrap gap-4 sm:gap-8 md:gap-16 lg:gap-32 fjustify-start">
               <div>
                 <img
                   className="w-10 h-10"
@@ -146,7 +145,7 @@ const AppDetails = () => {
           <button
             onClick={handleClickonInstall}
             disabled={isInstalling || isInstalled}
-            className="text-white btn btn-success"
+            className="btn btn-primary"
           >
             {isInstalling
               ? "Installing..."

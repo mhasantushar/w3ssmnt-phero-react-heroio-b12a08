@@ -6,8 +6,9 @@ import Spinner from "../compos/Spinner";
 import Loader from "../compos/Loader";
 import Homepage from "../pages/Homepage";
 import Allapps from "../pages/Allapps";
-import Installed from "../pages/Installed";
+import Installed from "../pages/InstalledWrap";
 import AppDetails from "../pages/AppDetails";
+import InstalledWrap from "../pages/InstalledWrap";
 
 const router = createBrowserRouter([
   {
@@ -30,8 +31,8 @@ const router = createBrowserRouter([
         element: <AppDetails />,
       },
       {
-        path: "/installation",
-        element: <Installed />,
+        path: "/installed",
+        element: <InstalledWrap />,
       },
     ],
   },

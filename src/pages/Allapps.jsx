@@ -31,19 +31,19 @@ const Allapps = () => {
     : appData;
 
   return (
-    <section className="mx-auto py-20 w-11/12">
-      <div className="text-[#001931] text-center">
-        <h2 className="font-bold text-[#001931] text-5xl">
+    <section className="mx-auto py-20 w-11/12 text-[#001931]">
+      <div className="text-center">
+        <h2 className="font-bold text-5xl">
           All Our Applications
         </h2>
-        <p className="mt-6 mb-12 text-[#001931]">
+        <p className="mt-6 mb-12">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
 
       {/* App count and search button */}
-      <div className="flex justify-between items-center mb-6">
-        <h4 className="font-bold 4xl">({matchedApps.length}) Apps Found</h4>
+      <div className="flex justify-between items-center gap-6 mb-6">
+        <h4 className="font-bold text-2xl">({matchedApps.length}) Apps Found</h4>
 
         <label className="input">
           <input
