@@ -23,19 +23,17 @@ const Allapps = () => {
   // console.log(appData);
 
   // starting the search...
-  const refinedTerm = searchTerm.trim().toLowerCase();
+  const refinedTerm = searchTerm.trim();
   // console.log(refinedTerm);
 
   const matchedApps = refinedTerm
-    ? appData.filter((app) => app.title.toLowerCase().includes(refinedTerm))
+    ? appData.filter((app) => app.title.includes(refinedTerm))
     : appData;
 
   return (
     <section className="mx-auto py-20 w-11/12 text-[#001931]">
       <div className="text-center">
-        <h2 className="font-bold text-5xl">
-          All Our Applications
-        </h2>
+        <h2 className="font-bold text-5xl">All Our Applications</h2>
         <p className="mt-6 mb-12">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
@@ -43,7 +41,9 @@ const Allapps = () => {
 
       {/* App count and search button */}
       <div className="flex justify-between items-center gap-6 mb-6">
-        <h4 className="font-bold text-2xl">({matchedApps.length}) Apps Found</h4>
+        <h4 className="font-bold text-2xl">
+          ({matchedApps.length}) Apps Found
+        </h4>
 
         <label className="input">
           <input
@@ -59,7 +59,7 @@ const Allapps = () => {
       {/* first, what to do if nothing is found */}
       {/* then, what to do if results found */}
       {matchedApps.length === 0 ? (
-        <NoAppFound clearSearch={()=>setSearchTerm("")} />
+        <NoAppFound clearSearch={() => setSearchTerm("")} />
       ) : (
         <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {matchedApps.map((app) => (

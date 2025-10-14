@@ -6,9 +6,10 @@ import Spinner from "../compos/Spinner";
 import Loader from "../compos/Loader";
 import Homepage from "../pages/Homepage";
 import Allapps from "../pages/Allapps";
-import Installed from "../pages/InstalledWrap";
 import AppDetails from "../pages/AppDetails";
 import InstalledWrap from "../pages/InstalledWrap";
+import Testpage from "../pages/Testpage";
+import PageNotFound from "../pages/PageNotFound";
 
 const router = createBrowserRouter([
   {
@@ -34,11 +35,15 @@ const router = createBrowserRouter([
         path: "/installed",
         element: <InstalledWrap />,
       },
+      {
+        path: 'test',
+        element: <Loader/>,
+      },
     ],
   },
   {
     path: "*",
-    element: <Errorinfo />,
+    element: <PageNotFound/>,
   },
 ]);
 

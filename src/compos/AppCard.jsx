@@ -4,7 +4,7 @@ import icoRating from "../assets/icon-ratings.png";
 import { Link } from "react-router";
 
 const AppCard = ({ app }) => {
-  const { id, image, title, tagline, downloads, rating } = app;
+  const { id, image, title, downloads, rating } = app;
 
   return (
     <Link to={`/app/${id}`}>
@@ -14,7 +14,7 @@ const AppCard = ({ app }) => {
         </figure>
         <div className="card-body">
           <h3 className="card-title">
-            {title} - {tagline}
+            {title}
           </h3>
 
           <div className="justify-between card-actions">

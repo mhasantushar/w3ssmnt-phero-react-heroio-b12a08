@@ -3,6 +3,9 @@ import { Link, NavLink } from "react-router";
 import '../../src/App.css';
 import appLogo from "../assets/logo.png"
 import icoGithub from '../assets/ico-github.png'
+import { IoIosApps } from "react-icons/io";
+import { FaHome } from "react-icons/fa";
+import { RiAppsFill } from "react-icons/ri";
 
 const Navbar = () => {
   return (
@@ -31,22 +34,24 @@ const Navbar = () => {
               tabIndex={0}
               className="z-1 bg-base-100 shadow mt-3 p-2 rounded-box w-52 menu menu-sm dropdown-content"
             >
-          <li><NavLink to='/'>Home</NavLink></li>
-          <li><NavLink to='/apps'>Apps</NavLink></li>
-          <li><NavLink to='/installs'>Installation</NavLink></li>
+
+          <li><NavLink to='/'><FaHome />Home</NavLink></li>
+          <li><NavLink to='/apps'><IoIosApps />Apps</NavLink></li>
+          <li><NavLink to='/installed'><RiAppsFill />Installed</NavLink></li>
             </ul>
           </div>
           <div className="flex justify-left items-center gap-2">
             <Link to='/'><img className="h-8" src={appLogo} alt="logo" /></Link>
-            <Link to='/' className="font-semibold link link-primary link-hover">HERO.IO</Link>
+            <Link to='/' className="font-semibold link link-primary link-hover">HEROAPP</Link>
           </div>
         </section>
         <section className="hidden lg:flex navbar-center">
           <ul className="px-1 menu menu-horizontal">
 
-          <li><NavLink to='/'>Home</NavLink></li>
-          <li><NavLink to='/apps'>Apps</NavLink></li>
-          <li><NavLink to='/installed'>Installed</NavLink></li>
+          <li><NavLink to='/'><FaHome />Home</NavLink></li>
+          <li><NavLink to='/apps'><IoIosApps />Apps</NavLink></li>
+          <li><NavLink to='/installed'><RiAppsFill />Installed</NavLink></li>
+          <li><NavLink to='/test'>Test</NavLink></li>
 
           </ul>
         </section>

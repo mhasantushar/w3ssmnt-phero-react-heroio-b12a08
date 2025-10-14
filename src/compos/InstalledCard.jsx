@@ -10,7 +10,7 @@ const InstalledCard = ({ app, handleClickonUninstall }) => {
       </figure>
       <div className="card-body">
         <h2 className="card-title">
-          {app.title}: {app.tagline}
+          {app.title}
         </h2>
 
         <div className="flex flex-wrap justify-start items-center gap-6">

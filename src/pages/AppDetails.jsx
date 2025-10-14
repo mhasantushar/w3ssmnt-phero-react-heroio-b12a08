@@ -60,7 +60,6 @@ const AppDetails = () => {
   const {
     image,
     title,
-    tagline,
     company,
     description,
     size,
@@ -98,7 +97,7 @@ const AppDetails = () => {
         <div>
           <div>
             <h1 className="mb-4 font-bold text-4xl">
-              {title}: {tagline}
+              {title}
             </h1>
             <p className="ext-gray-600">
               Developed by:{" "}

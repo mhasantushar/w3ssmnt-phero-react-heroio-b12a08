@@ -8,7 +8,7 @@ const useAppData = () => {
 
   useEffect(() => {
     setLoadingData(true);
-    axios("../mobapps.json")
+    axios("https://raw.githubusercontent.com/mhasantushar/w3educ-bin/refs/heads/main/json/w3ssmnt-phero-react-heroio-b12a08/mobapps-unique.json")
       .then((data) => setAppData(data.data))
       .catch((err) => setLoadingError(err))
       .finally(() => setLoadingData(false));
