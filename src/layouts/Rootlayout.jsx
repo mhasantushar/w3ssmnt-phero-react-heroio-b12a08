@@ -7,14 +7,12 @@ import { ToastContainer } from "react-toastify";
 const RootLayout = () => {
   return (
     <section className="flex flex-col min-h-dvh">
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
 
       <div className="flex-1">
         <Outlet />
       </div>
-      
+
       <Footbar />
       <ToastContainer />
     </section>

@@ -1,4 +1,6 @@
 import React from "react";
+import appLogo from "../assets/logo.png";
+import { Link } from "react-router";
 
 const Footbar = () => {
   return (
@@ -37,6 +39,14 @@ const Footbar = () => {
           </div>
         </fieldset>
       </form>
+      <div className="flex justify-left items-center gap-2">
+        <Link to="/">
+          <img className="h-8" src={appLogo} alt="logo" />
+        </Link>
+        <Link to="/" className="font-semibold link link-primary link-hover">
+          HEROAPP
+        </Link>
+      </div>
     </footer>
   );
 };

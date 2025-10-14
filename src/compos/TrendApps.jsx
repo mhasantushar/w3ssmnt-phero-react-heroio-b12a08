@@ -7,13 +7,13 @@ const TrendApps = () => {
   const { appData, loadingData, loadingError } = useAppData();
 
   if (loadingData) {
-    return <div className="py-20 text-center">Loading apps...</div>;
+    return <div className="py-20 font-semibold text-4xl text-center">Fetching app data...</div>;
   }
 
   if (loadingError) {
     return (
-      <div className="py-20 text-red-600 text-center">
-        Error loading apps: {loadingError.message}
+      <div className="py-20 font-semibold text-red-600 text-4xl text-center">
+        Error fetching app data: {loadingError.message}
       </div>
     );
   }

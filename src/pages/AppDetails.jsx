@@ -2,7 +2,7 @@ import React from "react";
 import { toast } from "react-toastify";
 import { useEffect } from "react";
 import { useState } from "react";
-import { useParams } from "react-router";
+import { Navigate, useParams } from "react-router";
 import {
   Bar,
   BarChart,
@@ -27,35 +27,47 @@ const AppDetails = () => {
   const [isInstalling, setIsInstalling] = useState(false);
   const [isInstalled, setIsInstalled] = useState(false);
 
-  //finding the app and loading its details
-  const targetApp = appData.find((app) => app.id === Number(appid));
-  // console.log(targetApp);
-
   // Check if the target app is already installed on mount
   useEffect(() => {
-    if (targetApp) {
-      const installedAppListLS =
-        JSON.parse(localStorage.getItem("installedApps-heroio")) || [];
-      const alreadyInstalled = installedAppListLS.some(
-        (app) => app.id === targetApp.id
-      );
-      setIsInstalled(alreadyInstalled);
+    if (!loadingData && !loadingError && appData.length > 0) {
+      const targetApp = appData.find((app) => app.id === Number(appid));
+      // console.log(targetApp);
+
+      if (targetApp) {
+        const installedAppListLS =
+          JSON.parse(localStorage.getItem("installedApps-heroio")) || [];
+        const alreadyInstalled = installedAppListLS.some(
+          (app) => app.id === targetApp.id
+        );
+        setIsInstalled(alreadyInstalled);
+      }
     }
-  }, [targetApp]);
+  }, [appData, loadingData, loadingError, appid]);
 
   // Loading data and verify the states through
   if (loadingData) {
-    return <div className="py-20 text-center">Loading apps...</div>;
+    return (
+      <div className="py-20 font-semibold text-4xl text-center">
+        Fetching app data...
+      </div>
+    );
   }
 
   if (loadingError) {
     return (
-      <div className="py-20 text-red-600 text-center">
-        Error loading apps: {loadingError.message}
+      <div className="py-20 font-semibold text-red-600 text-4xl text-center">
+        Error fetching app data: {loadingError.message}
       </div>
     );
   }
   // console.log(appData);
+
+  // Find the app after loading is complete
+  const targetApp = appData.find((app) => app.id === Number(appid));
+
+  if (!targetApp) {
+    return <Navigate to="/404" replace />;
+  }
 
   const {
     image,
@@ -96,9 +108,7 @@ const AppDetails = () => {
         </figure>
         <div>
           <div>
-            <h1 className="mb-4 font-bold text-4xl">
-              {title}
-            </h1>
+            <h1 className="mb-4 font-bold text-4xl">{title}</h1>
             <p className="ext-gray-600">
               Developed by:{" "}
               <span className="font-semibold text-indigo-600">{company}</span>
@@ -163,13 +173,8 @@ const AppDetails = () => {
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={ratings} layout="vertical">
               {/* <CartesianGrid strokeDasharray="3 3" /> */}
-              <XAxis type="number" axisLine={false} />
-              <YAxis
-                type="category"
-                dataKey="categ"
-                reversed
-                axisLine={false}
-              />
+              <XAxis type="number" />
+              <YAxis type="category" dataKey="categ" reversed />
               <Tooltip />
               <Bar dataKey="count" fill="#FF8811" />
             </BarChart>

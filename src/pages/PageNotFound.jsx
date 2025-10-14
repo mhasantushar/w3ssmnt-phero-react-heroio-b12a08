@@ -17,17 +17,24 @@ const PageNotFound = () => {
 
       <div>
         <button
-          onClick={()=>navigate("/")}
+          onClick={() => navigate("/")}
           className="bg-gradient-to-tr from-[#632ee3] to-[#9f62f2] mt-12 px-8 text-white btn btn-soft btn-primary"
         >
-          Go to Homepage!
+          Go to Home
         </button>
 
         <button
-          onClick={()=>navigate(-1)}
+          onClick={() => navigate("/apps")}
           className="bg-gradient-to-tr from-[#632ee3] to-[#9f62f2] mt-12 px-8 text-white btn btn-soft btn-primary"
         >
-          Go Back!
+          Show All Apps
+        </button>
+
+        <button
+          onClick={() => navigate(-1)}
+          className="bg-gradient-to-tr from-[#632ee3] to-[#9f62f2] mt-12 px-8 text-white btn btn-soft btn-primary"
+        >
+          Go Back
         </button>
       </div>
     </section>
