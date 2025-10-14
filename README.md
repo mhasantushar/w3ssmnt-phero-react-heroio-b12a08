@@ -56,4 +56,5 @@ This website offers all the amazing applications developed by Programming Hero. 
 - REPO: https://github.com/mhasantushar/w3ssmnt-phero-react-heroio-b12a08
 - LIVE: https://w3ssmnt-phero-react-heroio-b12a08.netlify.app/
 
-## The Programming Hero Team
+#### The Programming Hero Team
+##### All Rights Reserved 
