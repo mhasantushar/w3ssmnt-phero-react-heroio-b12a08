@@ -6,7 +6,7 @@ const NoAppFound = ({ clearSearch }) => {
       <figure>
         <img src="https://i.ibb.co/1GsJNNFs/App-Error.png" alt="No App Found" />
       </figure>
-      <h2 className="mt-8 font-bold text-4xl">OPPS!! APP NOT FOUND</h2>
+      <h2 className="mt-8 mb-4 font-bold text-4xl">OPPS!! APP NOT FOUND</h2>
       <p>
         The App you are requesting is not found on our system. please try
         another app.

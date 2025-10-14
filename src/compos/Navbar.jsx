@@ -51,7 +51,6 @@ const Navbar = () => {
           <li><NavLink to='/'><FaHome />Home</NavLink></li>
           <li><NavLink to='/apps'><IoIosApps />Apps</NavLink></li>
           <li><NavLink to='/installed'><RiAppsFill />Installed</NavLink></li>
-          <li><NavLink to='/test'>Test</NavLink></li>
 
           </ul>
         </section>

@@ -3,10 +3,12 @@ import { useState } from "react";
 import AppCard from "../compos/AppCard";
 import useAppData from "../hook/useAppData";
 import NoAppFound from "../compos/NoAppFound";
+import Spinner from "../compos/Spinner";
 
 const Allapps = () => {
   const { appData, loadingData, loadingError } = useAppData();
   const [searchTerm, setSearchTerm] = useState("");
+  const [isSearching, setIsSearching] = useState(false);
 
   // Loading data and verify the states through
   if (loadingData) {
@@ -20,11 +22,20 @@ const Allapps = () => {
       </div>
     );
   }
-  // console.log(appData);
+
+  // Handle search with 300ms fake delay
+  const handleSearchTermChange = (e) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+    setIsSearching(true);
+
+    setTimeout(() => {
+      setIsSearching(false);
+    }, 300);
+  };
 
   // starting the search...
   const refinedTerm = searchTerm.trim().toLowerCase();
-  // console.log(refinedTerm);
 
   const matchedApps = refinedTerm
     ? appData.filter((app) => app.title.toLowerCase().includes(refinedTerm))
@@ -50,22 +61,27 @@ const Allapps = () => {
             type="search"
             placeholder="Search Apps"
             value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
+            onChange={handleSearchTermChange}
           />
         </label>
       </div>
 
-      {/* publishing search result.. */}
-      {/* first, what to do if nothing is found */}
-      {/* then, what to do if results found */}
-      {matchedApps.length === 0 ? (
-        <NoAppFound clearSearch={() => setSearchTerm("")} />
+      {/* Show spinner while searching */}
+      {isSearching ? (
+        <Spinner />
       ) : (
-        <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {matchedApps.map((app) => (
-            <AppCard key={app.id} app={app} />
-          ))}
-        </div>
+        <>
+          {/* publishing search result.. */}
+          {matchedApps.length === 0 ? (
+            <NoAppFound clearSearch={() => setSearchTerm("")} />
+          ) : (
+            <div className="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              {matchedApps.map((app) => (
+                <AppCard key={app.id} app={app} />
+              ))}
+            </div>
+          )}
+        </>
       )}
     </section>
   );

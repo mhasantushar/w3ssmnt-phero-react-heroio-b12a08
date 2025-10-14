@@ -14,7 +14,7 @@ const NoAppInstalled = () => {
       <figure>
         <img src="https://i.ibb.co/1GsJNNFs/App-Error.png" alt="No App Found" />
       </figure>
-      <h2 className="mt-8 font-bold text-4xl">NOTHING FOUND INSTALLED</h2>
+      <h2 className="mt-8 mb-4 font-bold text-4xl">NOTHING FOUND INSTALLED</h2>
       <p>
         You haven't installed any of our applications yet!
       </p>

@@ -12,7 +12,7 @@ const PageNotFound = () => {
           alt="Page not Found"
         />
       </figure>
-      <h2 className="mt-8 font-bold text-4xl">OPPS!! PAGE NOT FOUND</h2>
+      <h2 className="mt-8 mb-4 font-bold text-4xl">OPPS!! PAGE NOT FOUND</h2>
       <p>The page you are looking for is not available.</p>
 
       <div>
